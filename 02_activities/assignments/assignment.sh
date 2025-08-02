@@ -1,6 +1,6 @@
 #!/bin/bash
 set -x
-
+#vdfvfdfdfbdfb 
 ############################################
 # DSI CONSULTING INC. Project setup script #
 ############################################
@@ -69,3 +69,5 @@ ls processed/*/* > inventory.txt
 ###########################################
 
 echo "Project setup is complete!"
+
+#vfvjdfvjdvjdf
