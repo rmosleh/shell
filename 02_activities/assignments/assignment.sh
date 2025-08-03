@@ -29,8 +29,6 @@ mkdir  data
 #Suppose we are in the current directory in which we create 
 #rawdata and data/raw directories then the solution is as follows
 
-mkdir -p data/raw
-mkdir rawdata 
 mv rawdata data/raw
 
 
