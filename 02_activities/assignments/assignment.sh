@@ -29,40 +29,34 @@ mkdir  data
 #Suppose we are in the current directory in which we create 
 #rawdata and data/raw directories then the solution is as follows
 
-mv rawdata data/raw
+
 
 
 # 3. List the contents of the ./data/raw directory
 
 #Suppose we are in the current directory in which we create 
 # data/raw directories then the solution is as follows
-ls data/raw
+
 
 # 4. In ./data/processed, create the following directories: server_logs, user_logs, and event_logs
 
 
 
 
-mkdir -p data/processed/server_logs data/processed/ser_logs data/processed/event_logs 
+
 
 
 # 5. Copy all server log files (files with "server" in the name AND a .log extension) from ./data/raw to ./data/processed/server_logs
-cp data/raw/*server*.log  data/processed/server_logs
+
 # 6. Repeat the above step for user logs and event logs
-cp data/raw/*server*.log  data/processed/user_logs
-cp data/raw/*server*.log  data/processed/event_logs
+
 # 7. For user privacy, remove all files containing IP addresses (files with "ipaddr" in the filename) from ./data/raw and ./data/processed/user_logs
-=
-rm data/raw/*ipaddr*
-rm data/processed/user_logs/*ipaddr*
+
 
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
-cd data
-touch inventory.txt
-ls processed/*/* > inventory.txt
+
 
 ###########################################
 
 echo "Project setup is complete!"
 
-#vfvjdfvjdvjdf
