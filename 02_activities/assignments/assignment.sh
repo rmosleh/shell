@@ -22,7 +22,7 @@ unzip -q rawdata.zip
 # Complete assignment here
 
 # 1. Create a directory named data
-mkdir data
+mkdir -p data
 
 # 2. Move the ./rawdata directory to ./data/raw
 
@@ -42,11 +42,8 @@ ls data/raw
 
 # 4. In ./data/processed, create the following directories: server_logs, user_logs, and event_logs
 
-mkdir -p data/processed
-cd data/processed
-mkdir server_logs user_logs event_logs
 
-#or
+
 
 mkdir -p data/processed/server_logs data/processed/ser_logs data/processed/event_logs 
 
